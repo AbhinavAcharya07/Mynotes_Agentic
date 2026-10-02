@@ -15,7 +15,7 @@ app.use(
     origin: [
       "http://localhost:5173",
       "http://localhost:5174",
-      "https://question-bank-gbs8.vercel.app",
+      "https://mynotes-agentic.vercel.app",
     ],
   })
 );

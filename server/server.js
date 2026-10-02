@@ -16,7 +16,8 @@ app.use(
       "http://localhost:5173",
       "http://localhost:5174",
       "https://mynotes-agentic.vercel.app",
-      "https://mynotes-agentic.vercel.app/"
+      "https://mynotes-agentic.vercel.app/",
+      "https://mynotes-agentic-60t2b61gp-abhinavs-projects-dff478f0.vercel.app"
     ],
   })
 );

@@ -1,0 +1,196 @@
+.CreatePost-Wte {
+  min-width: 100vw;
+  /* height: 100vh; */
+  display: grid;
+  grid-template-columns: 0.8fr 1.4fr 0.8fr;
+  height: min-content;
+  background-color: white;
+  height: 100vh;
+}
+.CreatePost-Blk {
+  width: 100vw;
+  /* height: 100vh; */
+
+  display: grid;
+  grid-template-columns: 0.8fr 1.4fr 0.8fr;
+  background-color: black;
+  height: 100vh;
+}
+.LeftSide-Wte {
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-right: 0px;
+  margin-bottom: 20px;
+  background-color: white;
+}
+.LeftSide-Blk {
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-right: 0px;
+  margin-bottom: 20px;
+  background-color: black;
+}
+.RightSide-Wte {
+  margin-top: 20px;
+  margin-right: 20px;
+  margin-left: 0px;
+  margin-bottom: 20px;
+  background-color: white;
+}
+.RightSide-Blk {
+  margin-top: 20px;
+  margin-right: 20px;
+  margin-left: 0px;
+  margin-bottom: 20px;
+  background-color: black;
+}
+.GeminiMain {
+  border: 1px solid rgb(31, 8, 48);
+  border-radius: 10px;
+  height: 80vh;
+}
+.Post-Wte {
+  overflow: hidden;
+  /* width: 100vw; */
+  max-width: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin: 10px auto;
+  color: black;
+}
+.Post-Blk {
+  overflow: hidden;
+  /* width: 100vw; */
+  max-width: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin: 10px auto;
+  color: white;
+}
+.Post form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 80vw;
+  max-width: 60rem;
+  padding: 20px;
+}
+.topic-Wte,
+.question-Wte,
+.answer-Wte {
+  font-size: medium;
+  height: auto;
+  width: 100%;
+  max-width: 30rem;
+  margin: 0.5rem;
+  padding: 0.5rem 1rem;
+  color: black;
+  border: none;
+  border-radius: 0.6rem;
+  background: rgb(184, 168, 168);
+}
+.topic-Blk,
+.question-Blk,
+.answer-Blk {
+  font-size: medium;
+  height: auto;
+  width: 100%;
+  max-width: 30rem;
+  margin: 0.5rem;
+  padding: 0.5rem 1rem;
+  color: white;
+  border: none;
+  border-radius: 0.6rem;
+  background: rgb(50, 50, 50);
+}
+.submitWhite {
+  cursor: pointer;
+  height: 50px;
+  width: 120px;
+  font-size: 25px;
+  font-weight: 650;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 1.25rem;
+  margin: 12px;
+  background: rgb(184, 168, 168);
+}
+.submitBlack {
+  color: white;
+  cursor: pointer;
+  height: 50px;
+  width: 120px;
+  font-size: 25px;
+  font-weight: 650;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 1.25rem;
+  margin: 12px;
+  position: relative;
+  z-index: 0;
+}
+.submitBlack::after {
+  content: "";
+  z-index: -1;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: #333;
+  left: 0;
+  top: 0;
+  border-radius: 1.25rem;
+}
+.submitBlack::before {
+  content: "";
+  background: linear-gradient(
+    45deg,
+    #ff0000,
+    #ff7300,
+    #fffb00,
+    #48ff00,
+    #00ffd5,
+    #002bff,
+    #ff00c8,
+    #ff0000
+  );
+  position: absolute;
+  top: -2px;
+  left: -2px;
+  background-size: 600%;
+  z-index: -1;
+  width: calc(100% + 4px);
+  height: calc(100% + 4px);
+  filter: blur(8px);
+  animation: glowing 20s linear infinite;
+  transition: opacity 0.3s ease-in-out;
+  border-radius: 1.25rem;
+  opacity: 1;
+}
+@keyframes glowing {
+  0% {
+    background-position: 0 0;
+  }
+  50% {
+    background-position: 400% 0;
+  }
+  100% {
+    background-position: 0 0;
+  }
+}
+.submitBlack:hover::before {
+  opacity: 1;
+}
+.submitBlack:active::after {
+  background: transparent;
+}
+.submitBlack:active {
+  color: #000;
+}

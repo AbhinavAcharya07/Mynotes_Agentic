@@ -1,0 +1,32 @@
+.Main-Wte {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: white;
+  color: black;
+  padding: 20px;
+}
+.Main-Blk {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: black;
+  color: white;
+  padding: 20px;
+}
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  /* aspect-ratio: 1/1; */
+  gap: 20px; /* Space between the cards */
+  min-height: 300px;
+  max-width: 1000px;
+  margin: 20px 0px;
+}
+.card-skelton {
+  background-color: #ccc;
+}

@@ -1,0 +1,42 @@
+.PayloadContainerShimmer-Wte {
+  margin: 2.5% 5%;
+  border-radius: 8px;
+  height: 70%;
+  width: 90%;
+  overflow-y: scroll;
+  scrollbar-width: none;
+  background-color: hsl(200, 20%, 95%);
+  position: absolute;
+  top: 10%;
+  opacity: 0.7;
+  animation: skeleton-loading 1s linear infinite alternate;
+}
+@keyframes skeleton-loading {
+  0% {
+    background-color: hsl(200, 20%, 70%);
+  }
+  100% {
+    background-color: hsl(200, 20%, 95%);
+  }
+}
+.PayloadContainerShimmer-Blk {
+  margin: 2.5% 5%;
+  border-radius: 8px;
+  height: 70%;
+  width: 90%;
+  overflow-y: scroll;
+  scrollbar-width: none;
+  background-color: hsl(200, 20%, 20%);
+  position: absolute;
+  top: 10%;
+  opacity: 0.7;
+  animation: skeleton-loading 1s linear infinite alternate;
+}
+@keyframes skeleton-loading {
+  0% {
+    background-color: hsl(200, 20%, 20%);
+  }
+  100% {
+    background-color: hsl(200, 20%, 45%);
+  }
+}

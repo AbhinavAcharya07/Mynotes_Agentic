@@ -1,0 +1,79 @@
+.singlePostContainer-Wte {
+  /* display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  gap: 20px; /* Space between the cards */
+  /* max-width: 800px;
+  margin: 20px auto;  */
+  /* background-color: black; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  background-color: white;
+}
+.singlePostContainer-Blk {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  background-color: black;
+}
+.singlePostCard-Wte {
+  background-color: rgb(
+    184,
+    168,
+    168
+  ); /* Slightly transparent white for the cards */
+  padding: 20px;
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  text-align: left;
+  color: black;
+  width: 50%;
+  margin: 10px 10px;
+}
+.singlePostCard-Blk {
+  background-color: rgba(
+    50,
+    50,
+    50
+  ); /* Slightly transparent white for the cards */
+  padding: 20px;
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  text-align: left;
+  color: white;
+  width: 50%;
+  margin: 10px 10px;
+}
+.singlePostCardP-Wte {
+  margin: 10px 0px;
+  font-size: medium;
+}
+.singlePostCardP-Blk {
+  margin: 10px 0px;
+  font-size: medium;
+}
+.buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#deletebtn {
+  width: 60px;
+  height: 30px;
+  margin: auto 5px;
+  cursor: pointer;
+  background-color: rgb(201, 45, 17);
+  /* font-weight: 400; */
+}
+#editbtn {
+  width: 60px;
+  height: 30px;
+  margin: auto 5px;
+  cursor: pointer;
+  background-color: rgb(40, 202, 151);
+  /* font-weight: 400; */
+}

@@ -1,0 +1,60 @@
+.card-Wte {
+  /* background-color: rgba(
+    255,
+    255,
+    255,
+    0.7
+  ); Slightly transparent white for the cards */
+  background-color: rgb(184, 168, 168, 0.7);
+  padding: 20px;
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  text-align: left;
+  color: black;
+  min-height: 300px;
+  min-width: 500px;
+}
+.card-Blk {
+  background-color: rgb(50, 50, 50);
+  padding: 20px;
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  text-align: left;
+  color: white;
+  min-height: 300px;
+  min-width: 500px;
+}
+.cardH2 {
+  display: flex;
+  justify-content: center;
+  margin: 5px;
+  text-align: center;
+}
+.card-topic {
+  margin: 5px 5px;
+  height: auto;
+}
+.card-content {
+  padding: 5px;
+}
+.card-question {
+  margin: 5px;
+  padding: 3px;
+  height: auto;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: hidden;
+  -webkit-line-clamp: 2;
+  line-clamp: 2;
+}
+.card-answer {
+  margin: 5px;
+  padding: 5px;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: hidden;
+  -webkit-line-clamp: 3;
+  line-clamp: 3;
+}

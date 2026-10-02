@@ -3,7 +3,7 @@ import "./Gemini.css";
 import "./AiSearchShimmer.css";
 import { GoogleGenAI } from "@google/genai";
 
-const apiKey = import.meta.env.VITE_SECRET;
+const apiKey = import.meta.env.API_SECRET;
 const ai = new GoogleGenAI({ apiKey: apiKey });
 
 const GeminiMain = () => {

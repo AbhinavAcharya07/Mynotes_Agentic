@@ -4,7 +4,7 @@ import { ModeSwitcher } from "../../contextProvider";
 import "./Gemini.css";
 import "./AiSearchShimmer.css";
 
-const BackEndUrl = import.meta.env.VITE_BACKEND;
+const BackEndUrl = import.meta.env.API_SECRET;
 
 const Gemini = () => {
   const { color } = useContext(ModeSwitcher);

@@ -14,7 +14,7 @@ const CreatePost = () => {
   const [answer, setAnswer] = useState("");
   const navigate = useNavigate();
   const { postId } = useParams();
-  const BackEndUrl = import.meta.env.VITE_BACKEND;
+  const BackEndUrl = import.meta.env.API_SECRET;
   const getPost = async () => {
     try {
       const response = await axios.get(

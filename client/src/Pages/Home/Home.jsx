@@ -9,7 +9,7 @@ import { useEffect, useState } from "react";
 const Home = () => {
   const { color } = useContext(ModeSwitcher);
   const [posts, setposts] = useState([]);
-  const BackEndUrl = import.meta.env.API_SECRET;
+  const BackEndUrl = import.meta.env.VITE_API_SECRET;
   const getPost = async () => {
     try {
       const response = await axios.get(`${BackEndUrl}/getallposts`);

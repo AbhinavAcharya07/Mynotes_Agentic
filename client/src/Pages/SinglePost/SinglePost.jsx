@@ -11,7 +11,7 @@ const SinglePost = () => {
   console.log(postId);
   const [post, setpost] = useState();
   const navigate = useNavigate();
-  const BackEndUrl = import.meta.env.API_SECRET;
+  const BackEndUrl = import.meta.env.VITE_API_SECRET;
 
   const getPost = async () => {
     try {
